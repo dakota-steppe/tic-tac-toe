@@ -18,27 +18,27 @@ def play_turn(player, board):
 def check_win(board):
     """
     Check for any win
-    Inputs: 
-        board - 2D list 
-    Outputs: 
+    Inputs:
+        board - 2D list
+    Outputs:
         win - boolean
     """
-    l = len(board)
 
-    # check rows    
-    
+
+    # check rows
+
     # check cols
 
     # check main diagonal
-        
+
     # check other diagonal
 
 
 def print_board(board):
     """
     Print current form of board
-    Inputs: 
-        board - 2D list 
+    Inputs:
+        board - 2D list
     Outputs: None
     """
 
@@ -59,7 +59,7 @@ def play_game():
     print("===============================================================")
 
     # Get valid inputs from user for board dimensions
-        
+
     # Play game until win or tie condition is met
 
 
